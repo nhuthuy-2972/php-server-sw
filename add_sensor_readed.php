@@ -16,7 +16,7 @@
 </form>
 <?php
 $temparature = $_GET['temparature'];
-$password = $_GET['ph'];
+$ph = $_GET['ph'];
 
 function pg_connection_string_from_database_url() {
   extract(parse_url($_ENV["DATABASE_URL"]));
