@@ -82,7 +82,7 @@ class restful_api {
      */
     protected function response($status_code, $data = NULL){
         header($this->_build_http_header_string($status_code));
-        header("Content-Type: application/json");
+        header("Content-Type: application/x-www-form-urlencoded");
         echo json_encode($data);
         die();
     }
