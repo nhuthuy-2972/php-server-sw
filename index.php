@@ -9,7 +9,7 @@
 </head>
 <body>
   <a href="setup.php">Setup</a><br>
-  <a href="add_account.php">Add</a><br>
-  <a href="list_account.php">Display</a>
+  <a href="add_sensor_readed.php">Add</a><br>
+  <a href="display.php">Display</a>
 </body>
 </html>
