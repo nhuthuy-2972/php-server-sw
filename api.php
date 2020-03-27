@@ -10,8 +10,8 @@ class api extends restful_api {
 	function receive_sensor(){
 		if ($this->method == 'GET'){
 
-			$temparature = $this->params['temparature'];
-			$ph = $this->params['ph'];
+			$temparature = $_GET['temparature'];
+			$ph = $_GET['ph'];
 
 			function pg_connection_string_from_database_url() {
 			  extract(parse_url($_ENV["DATABASE_URL"]));
