@@ -1,5 +1,5 @@
 <?php
-require 'restful_api.php';
+require 'resful_api_sw.php';
 
 class api extends restful_api {
 

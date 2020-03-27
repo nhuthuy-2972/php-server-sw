@@ -97,7 +97,7 @@ class restful_api {
             200 => 'OK',
             404 => 'Not Found',
             405 => 'Method Not Allowed',
-            500 => 'Internal Server Error 11111'
+            500 => 'Internal Server Error'
         );
         return "HTTP/1.1 " . $status_code . " " . $status[$status_code];
     }
